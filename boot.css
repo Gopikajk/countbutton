@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100vh;
+ 
+    
+    background: linear-gradient(90deg, rgb(123, 212, 235) 0%, rgb(245, 115, 187) 50%, rgb(221, 23, 122) 100%);
+}
+h1{
+    color: rgb(204, 23, 53);
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+    margin-right: 18px;
+}
+#circle{
+    width: 320px;
+    height: 320px;
+    background: rgb(45, 195, 233);
+    border-radius: 100px;   
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 20px solid rgb(228, 80, 80);
+}
+h3{
+    color: rgb(167, 31, 54);
+    margin-top: 500px;
+    margin-left: 610px;
+}
+
+button{
+    width: 50px;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    color: rgb(168, 29, 52);
+    background-color: rgb(240, 180, 205);
+    ;
